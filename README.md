@@ -1,5 +1,5 @@
 # java-lambdas
-Java lambda expressions to manipulate binary data from a .bin 
+Java lambda expressions to manipulate binary data from a .bin with more than 300 records
 
 ![image][]
 
