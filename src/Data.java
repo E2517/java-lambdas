@@ -8,7 +8,7 @@ public class Data {
 	
 	public Data (int numeroAscensor, int plantaInicio, int plantaDestino, double cargaAscensor) {
 		
-		this.elevator = numeroAscensor;
+	    this.elevator = numeroAscensor;
 	    this.start = plantaInicio;
 	    this.end = plantaDestino;
 	    this.weight = cargaAscensor;
@@ -45,13 +45,5 @@ public class Data {
 	public void setWeightElevator(double weightElevator) {
 		this.weight = weightElevator;
 	}
-
-	@Override
-	public String toString() {
-		return "Elevator [number=" + elevator + ", start floor=" + start + ", end floor="
-				+ end + ", weight=" + weight + "]";
-	}
-	
-	
 
 }
