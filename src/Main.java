@@ -117,7 +117,7 @@ public class Main {
                 .mapToInt(c -> c.getEndFloor())
                 .reduce((first, second) -> second);
 
-        System.out.println("End Final: " + numero.getAsInt());
+        System.out.println("Final floor: " + numero.getAsInt());
     }
 
 }
